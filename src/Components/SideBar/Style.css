@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+label{
+z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 220px;
+  font-size: 30px;
+  margin: 3px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label:hover{
+  color:rgb(10, 161, 161);
+}
+.left_area span{
+  color:   rgb(7, 212, 212);
+}
+
+@media (max-width:1400px) {
+#check:checked ~ .sidebar{
+  left: -190px;
+
+}
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+.content{
+  margin-left: 250px;
+  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+}
+#check{
+  display: none;
+}
+                           

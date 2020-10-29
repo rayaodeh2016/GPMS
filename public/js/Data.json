@@ -1,0 +1,41 @@
+{
+   "Overview" :[
+        {
+            "id":1,
+            "head":"Overview",
+            "pa":"The Senior Graduation Project highlights an important milestone for the Bachelor's and Students of graduate projects on their journey to learn about their scientific testimony. The graduation project A requirement that students in all colleges must provide. The Graduation Project Management System (GPMS) will certainly perform these educational tasks"
+
+        }
+    ]
+    ,
+    "AboutUs":[
+        {
+            "id":1,
+            "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
+            "name":"Eng Raya Azmi Odeh",
+            "txt":"Web Developer"
+
+
+    },
+    {
+        "id":2,
+        "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
+         "name":"Eng Azhar Atari",
+         "txt":"Web Developer"
+    },
+    {
+        "id":3,
+        "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
+        "name":"Eng Hanaa Sous",
+        "txt":"Web Developer"
+    },
+    { "id":4,
+        "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
+        "name":"Eng Farah Diab",
+        "txt":"Web Developer"
+    }
+
+
+    ]
+    
+}

@@ -1,0 +1,45 @@
+
+.btn-primary{
+  background-color:   rgb(7, 212, 212);
+  
+}
+
+.btn-primary:active{
+  background-color: #138b69;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(10, 161, 161);
+  border-color: rgb(10, 161, 161);
+}
+.btn.btn-openModal{
+  background-color:  rgb(7, 212, 212);
+  border-color:  rgb(7, 212, 212);
+}
+.react-strap-table .card-header label {
+  margin-bottom: 0;
+}
+
+.react-strap-table .table-sort-th {
+  cursor: pointer;
+}
+
+.react-strap-table .table-sort-icon {
+  float: right;
+}
+
+.react-strap-table .card-header {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.react-strap-table .card-footer {
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 0px;
+  border-top: 0px;
+}
+
+.react-strap-table .card-body {
+  padding-bottom: 0px;
+}
+/*Style drop dowwn*/
+
