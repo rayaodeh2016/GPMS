@@ -38,74 +38,51 @@
         }
         
     ],
-"Side_student":[
-    {
-        "id":1,
-        "href" : "#", 
-        "icon_name":"fas fa-clipboard-list",
-        "content" :"  Dashboard"  
-    },
-    {
-        "id":2,
-        "href" : "#", 
-        "icon_name":"fas fa-users",
-        "content" :"  Team"  
-    },
-    {
-        "id":3,
-        "href" : "#", 
-        "icon_name":"fas fa-tasks",
-        "content" :"  Tasks"  
-    }, 
-     {
-        "id":4,
-        "href" : "#", 
-        "icon_name":"fas fa-bell",
-        "content" :"  Notifications"  
-    },
-    {
-        "id":5,
-        "href" : "#", 
-        "icon_name":"fas fa-comment-dots",
-        "content" :"  Chat"  
-    },
-    {
-        "id":6,
-        "href" : "#", 
-        "icon_name":"fas fa-project-diagram",
-        "content" :"  UML Drawer"  
-    },
-    {
-        "id":7,
-        "href" : "#", 
-        "icon_name":"fas fa-user-edit",
-        "content" :" Edit Profile"  
-    }
-],
-"Slider":[
-    {
-        "id":1,
-      "className":"d-block w-100",
-      "src":"../../src/Components/img/startup-593327_1920.jpg",
-      "alt":"First slide"
-    },
-    {   "id":2,
-        "className":"d-block w-100",
-        "src":"../../src/Components/img/student-849825_1920.jpg",
-        "alt":"Second slide"
-    },
-    {
-        "id":3,
-        "className":"d-block w-100",
-        "src":"../../src/Components/img/work-731198_1920.jpg",
-        "alt":"Third slide"
-    },
-    {
-        "id":4,
-        "className":"d-block w-100",
-        "src":"../../src/Components/img/computer-1245714_1920.jpg",
-        "alt":"Third slide"
-    }
-]
+  
     
-}
+    "Side_student":[
+        {  "id":1,
+            "href" : "#", 
+            "icon_name":"fas fa-clipboard-list",
+            "content" :"Dashboard"
+        
+        },
+        {  "id":2,
+            "href" : "#", 
+            "icon_name":"fas fa-users",
+            "content" :"Team"
+        
+        },
+        {  "id":3,
+            "href" : "#", 
+            "icon_name":"fas fa-tasks",
+            "content" :"Tasks"
+        
+        },
+        {  "id":4,
+            "href" : "#", 
+            "icon_name":"fas fa-bell",
+            "content" :"Notifications"
+        
+        },
+        {  "id":5,
+            "href" : "#", 
+            "icon_name":"fas fa-comment-dots",
+            "content" :"Chat"
+        
+        },
+        {  "id":6,
+            "href" : "#", 
+            "icon_name":"fas fa-project-diagram",
+            "content" :"UML Drawer"
+        
+        },
+        {  "id":7,
+            "href" : "#", 
+            "icon_name":"fas fa-user-edit",
+            "content" :"Edit Profile"
+        }
+
+    ]
+        
+    }

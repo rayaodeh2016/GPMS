@@ -4,7 +4,7 @@ import Logo2 from '../../Components/img/regester (2).svg';
 
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
-import './logins.css'; 
+import './logins.css';
 
 
 
@@ -22,16 +22,16 @@ export class Login extends React.Component {
   };
   constructor(props) {
     super(props);
-    
+
 
   }
   render() {
     const { hasOpen } = this.state;
     return (
 
-<div class="container" >
-      <div class="forms-container">
-        <div class="signin-signup">
+      <div class="container" >
+        <div class="forms-container">
+          <div class="signin-signup">
             <form action="#" class="sign-in-form">
               <h2 class="title">Sign in</h2>
               <div class="input-field">
@@ -45,25 +45,25 @@ export class Login extends React.Component {
               <input type="submit" value="Login" class="btn solid" />
               <br />
               <div>
-                <a onClick={this.onButtonClick} style={{ color:" rgb(7, 212, 212)",cursor:"pointer"  }}>did you forget password ?</a>
+                <a onClick={this.onButtonClick} style={{ color: " rgb(7, 212, 212)", cursor: "pointer" }}>did you forget password ?</a>
                 <Modal open={hasOpen} onClose={this.onCloseModal} center>
                   <p class="social-text">  <form action="#" class="sign-in-form">
-              <h2 class="title" style={{textAlign:'center' }}>Reset Password</h2>
-              
-              <div class="input-field">
-                <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="Email" />
-              </div>
-              
-              <input type="submit" class="btn" value="Submit"/>
+                    <h2 class="title" style={{ textAlign: 'center' }}>Reset Password</h2>
 
-              </form>
-             </p>
-             
+                    <div class="input-field">
+                      <i class="fas fa-envelope"></i>
+                      <input type="email" placeholder="Email" />
+                    </div>
+
+                    <input type="submit" class="btn" value="Submit" />
+
+                  </form>
+                  </p>
+
                 </Modal>
-                 </div>
+              </div>
 
-             
+
             </form>
 
 
@@ -101,7 +101,7 @@ export class Login extends React.Component {
               <p>
                 Don't worry, click here to create a new account to log onto the site
             </p>
-              <button className="btn transparent"  id="sign-up-btn" onClick={() => {
+              <button className="btn transparent" id="sign-up-btn" onClick={() => {
                 const sign_in_btn = document.querySelector("#sign-in-btn");
                 const sign_up_btn = document.querySelector("#sign-up-btn");
                 const container = document.querySelector(".container");
@@ -114,7 +114,7 @@ export class Login extends React.Component {
                   container.classList.remove("sign-up-mode");
                 });
               }}
-                >
+              >
                 Sign up
             </button>
             </div>

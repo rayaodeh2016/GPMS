@@ -14,6 +14,7 @@ export const Input = styled.input`
 export const Container = styled.div
   `
     box-sizing: border-box;
+    max-width:100%;
  
     `
 export const Form_S = styled.form`

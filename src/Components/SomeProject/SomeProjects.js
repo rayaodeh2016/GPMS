@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React from 'react'
 
 import 'react-responsive-modal/styles.css';
 

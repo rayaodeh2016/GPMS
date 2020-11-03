@@ -9,7 +9,7 @@ export const ModalP = ({ show, close }) => {
   const Modal_S = {
     transform: show ? 'translateY(0vh)' : 'translateY(-30vh)',
     opacity: show ? '1' : '0',
-    position: " absolute",
+    position: " absolute", 
     float: "left",
     left: "25%",
     right: "25%",

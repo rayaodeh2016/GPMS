@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '../Style.css';
 import img1 from '../User.png';
 import axios from 'axios';
-import { Header_S, H3_S, Button_S, SideBar_S, Imgestyle, Head_4, A_S } from '../Styles.js';
+import {  SideBar_S, Imgestyle, Head_4, A_S } from '../Styles.js';
 import Side_Header from '../Header_sideBar';
 
 class SideNavPage extends Component {

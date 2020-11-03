@@ -10,32 +10,88 @@
     ,
     "AboutUs":[
         {
-            "id":1,
+            "id":0,
             "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
             "name":"Eng Raya Azmi Odeh",
-            "txt":"Web Developer"
-
-
+            "txt":"Web Developer",
+            "link_1":"#",
+            "link_2":"#",
+            "link_3":"#"
+    },
+    {
+        "id":1,
+        "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
+         "name":"Eng Azhar Atari",
+         "txt":"Web Developer",
+         "link_1":"#",
+         "link_2":"#",
+         "link_3":"#"
     },
     {
         "id":2,
         "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
-         "name":"Eng Azhar Atari",
-         "txt":"Web Developer"
-    },
-    {
-        "id":3,
-        "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
         "name":"Eng Hanaa Sous",
-        "txt":"Web Developer"
+        "txt":"Web Developer",
+        "link_1":"#",
+        "link_2":"#",
+        "link_3":"#"
     },
-    { "id":4,
+    { "id":3,
         "src":"https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb",
         "name":"Eng Farah Diab",
-        "txt":"Web Developer"
+        "txt":"Web Developer",
+        "link_1":"#",
+        "link_2":"#",
+        "link_3":"#"
     }
 
 
-    ]
+    ],
+ 
+    "Slider":[
+    {
+        "id":0,
+      "className_1":"d-block w-100",
+      "src_1":"./Images/startup-593327_1920.jpg",
+      "alt_1":"First slide"
+    },
+    {   "id":1,
+        "className_1":"d-block w-100",
+        "src_1":"./Images/student-849825_1920.jpg",
+        "alt_1":"Second slide"
+    },
+    {
+        "id":2,
+        "className_1":"d-block w-100",
+        "src_1":"./Images/work-731198_1920.jpg",
+        "alt_1":"Third slide"
+    },
+    {
+        "id":3,
+        "className_1":"d-block w-100",
+        "src_1":"/Images/computer-1245714_1920.jpg",
+        "alt_1":"Third slide"
+    }
+],
+
+"Projects":[
+    
+    {
+        "id":0,
+        "src_left":"/Images/Web.jpg",
+        "h3_left":"WEB Projects",
+        "src_right":"/Images/AI.jpg",
+        "h3_right":"Artificial intelligence"
+    },
+
+    {
+        "id":1,
+        "src_left":"/Images/Android.jpg",
+        "h3_left":"Android",
+        "src_right":"/Images/ML.jpg",
+        "h3_right":"Image processing"
+    }
+
+]
     
 }

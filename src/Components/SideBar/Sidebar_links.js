@@ -15,7 +15,7 @@ class Side_links extends Component {
 
   render() {
 
-    const { Side_student } = this.state;
+    const {Side_student} = this.state;
     const SideList_S = Side_student.map((Item) => {
       return (
         <A_S key={Item.id} href={Item.href}><i className={Item.icon_name}></i><span> {Item.content}</span></A_S>

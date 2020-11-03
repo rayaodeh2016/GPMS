@@ -8,11 +8,7 @@ import 'material-icons';
 class chat extends Component {
 
     render() {
-        const Burger = () => {
-            var chat = document.getElementById('chat');
-            chat.scrollTop = chat.scrollHeight - chat.clientHeight;
-        }
-        const Div_Style = {
+            const Div_Style = {
             paddingTop: "25%", paddingRight: "50px"
         }
         const H1_Style = {

@@ -58,7 +58,7 @@ nav .links a{
   position: absolute;
   top:-100%;
 }
-nav .icon-burger{
+nav .icon-burger2{
   display:none;
   position: absolute;
   right: 5%;
@@ -66,7 +66,7 @@ nav .icon-burger{
   transform: translate(-50%);
 
 }
-nav .icon-burger .line{
+nav .icon-burger2 .line{
   width: 30px;
   height: 5px;
   background-color: #fff;
@@ -98,21 +98,21 @@ nav .icon-burger .line{
   nav .links a{
     font-size: 20px;
   }
-  nav .icon-burger{
+  nav .icon-burger2{
     display: block;
   }
   nav :checked ~ .links{
     bottom: 0;
   }
-  nav :checked ~ .icon-burger .line:nth-child(1){
+  nav :checked ~ .icon-burger2 .line:nth-child(1){
     transform: translateY(10px) rotate(225deg);
 
   }
-  nav :checked ~ .icon-burger .line:nth-child(3){
+  nav :checked ~ .icon-burger2 .line:nth-child(3){
     transform: translateY(-10px) rotate(-225deg);
 
   }
-  nav :checked ~ .icon-burger .line:nth-child(2){
+  nav :checked ~ .icon-burger2 .line:nth-child(2){
   opacity:0 ;
 
   }

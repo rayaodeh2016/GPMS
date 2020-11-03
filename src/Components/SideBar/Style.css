@@ -18,6 +18,7 @@ z-index: 1;
 
 label:hover{
   color:rgb(10, 161, 161);
+  color :rgba(255, 255, 255, 0)
 }
 .left_area span{
   color:   rgb(7, 212, 212);

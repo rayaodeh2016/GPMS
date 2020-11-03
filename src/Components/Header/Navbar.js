@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Label, Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+
 const NavBar = () => {
 
   const [Table_Value, setitems] = useState([
@@ -30,7 +30,7 @@ const NavBar = () => {
         <ul className="links">
           {TableList}
         </ul>
-        <Label for="nav-toggle" className="icon-burger">
+        <Label for="nav-toggle" className="icon-burger2">
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>

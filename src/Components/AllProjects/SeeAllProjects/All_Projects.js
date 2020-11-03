@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Search from '../../Search/Search';
 import { Button, Modal } from 'react-bootstrap';
 import 'react-responsive-modal/styles.css';

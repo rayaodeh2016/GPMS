@@ -17,6 +17,7 @@ input {
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
+
 }
 
 .forms-container {
@@ -25,7 +26,9 @@ input {
   height: 100%;
   top: 0;
   left: 0;
+  color:rgb(15, 117, 117);
 }
+
 
 .signin-signup {
   position: absolute;
@@ -176,7 +179,7 @@ form.sign-in-form {
 
 .right-panel {
   pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
+  padding: 3rem 12% 3rem 17%;
 }
 
 .panel .content {
@@ -314,6 +317,8 @@ form.sign-in-form {
     height: 35px;
     font-size: 0.7rem;
   }
+  
+ 
 
   .container:before {
     width: 1500px;

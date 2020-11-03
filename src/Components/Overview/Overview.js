@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component } from 'react';
 import photo2 from '../img/photo2.svg';
 import { AboutUs, Text, Div_img, Img, Textp, Titel } from './style.js';
 import 'aos/dist/aos.css';

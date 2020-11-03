@@ -12,8 +12,7 @@ const Form_co= () => {
               <Input type="text" id="email" name="Email" placeholder="Your Email.." />
               
               <Input type="text" id="name" name="Name" placeholder="Your Name.." />
-              
-              <Textarea id="subject" name="subject" placeholder="Write Your message ." style={Text_Areastyle}></Textarea>
+             <Textarea id="subject" name="subject" placeholder="Write Your message ." style={Text_Areastyle}></Textarea>
               <InputSubmit type="submit" value="Submit" />
             </Form>
 

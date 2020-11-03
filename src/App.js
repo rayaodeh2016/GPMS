@@ -8,25 +8,24 @@ import SomeProjects from './Components/SomeProject/index_some';
 import AllProjects from './Components/AllProjects/SeeAllProjects/index.AllP';
 import SideBar from './Components/SideBar/SideBar_Student'
 import ChatShell from './Components/Chat/chat';
-import { Label } from 'reactstrap';
-import { Link, useHistory } from "react-router-dom";
-import Superv from './Components/Supervisor/index';
-import Super_Side from './Components/SideBar/SuperVisor/index';
-
-
-
-
+import Super_Team_card from './Components/Team_Card/index';
+import Super_Side from './Components/SideBar/SuperVisor_Side/index';
+import Student_Profile from './Components/Student_Profile/Student_Profile';
+import Super_Team from './Components/SuperVisor_Team_std/Supervisor_profle_std';
+import CSE_supervisors from './Components/Supervisor_name/Super_Card_name';
+import Our_Group from './Components/OurGroup_Team/OurGroup';
+import Std_Dashbord from './Components/DashBord_Student/DashBord';
+import Edit_Profile from './Components/Edit_Profile/Edit_Profile';
+import A_EX from './Components/Examiner/Accepte_Examination';
 function App() {
-
+  
 
   return (
-    <div>
-      <Router>
-  <Navbar/>
-  <Main/>
+    <Router>
+<Navbar/>
+<Main/>
 
-      </Router>
-    </div>
+    </Router>
   );
 }
 
