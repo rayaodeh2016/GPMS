@@ -1,13 +1,12 @@
 
-import React, { Component } from 'react';
-import { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import React, {useState  } from 'react';
+
 import 'react-responsive-modal/styles.css';
 
 
 function Table_Some() {
 
-    const [show, setShow] = useState(false);
+    
     const [Table_Value] = useState([
         { "id": 1,"Student":"Raya" ,"Grade": "99", "feedback": "good" },
 

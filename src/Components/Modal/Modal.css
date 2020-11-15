@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,13 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
 
 
 }
 
 .btn-openModal {
-  background:rgb(7, 212, 212);
+  background:#08D0D0;
   color: #eee;
   font-size: 1rem;
   border: none;
@@ -31,7 +32,7 @@ body {
 }
 
 .modal-header {
-  background: rgb(7, 212, 212);
+  background: #08D0D0;
   color: #e9e9e9;
   padding: 1rem;
   position:sticky;
@@ -44,6 +45,12 @@ body {
   justify-content: space-between;
 
 
+}
+.modal-header h3{
+    font-size: 1.8rem;
+  color: rgb(99, 100, 100);
+  
+    font-family: Helvetica;
 }
 .modal-header p{
   font-size: 1.1rem;
@@ -60,19 +67,15 @@ body {
 .modal-content {
   padding: 1.5rem 1rem;
   background: rgba(77, 77, 77, 0.137);
-
-
-}
+  }
 
 .modal-body {
-
   margin-bottom: 1rem;
-
 }
 
 .modal-body h4 {
   font-size: 1.8rem;
-  color: rgb(7, 212, 212);
+  color: rgb(42, 44, 44)
 }
 
 .modal-body p {
@@ -89,7 +92,7 @@ body {
   font-size: 1rem;
   margin-left: auto;
   padding: 0.5rem 1.8rem;
-  background:rgb(7, 212, 212);
+  background:#08D0D0;
   color: #fff;
   border: none;
   outline: none;
@@ -103,10 +106,7 @@ body {
   transition: all 1.3s;
   width: 100%;
 }
-.img_p{
-  height: 150px;
-  width: 140px;
-}
+
 label{
   padding-left: 10px;
   font-size: 1.1rem;
@@ -116,3 +116,5 @@ label{
 textarea{
   width:600px;
 }
+
+

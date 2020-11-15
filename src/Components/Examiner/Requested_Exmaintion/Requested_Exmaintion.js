@@ -1,9 +1,9 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import 'react-responsive-modal/styles.css';
-import Modal_info from './Project_info_modal';
+import ModalInfo from './Project_info_modal';
 
 
 function Table_Some() {
@@ -11,17 +11,15 @@ function Table_Some() {
     const [modalShow, setModalShow] = React.useState(false);
 
     const [Table_Value] = useState([
-        { "id": 1,"project_Name":"GPMS" ,"SuperVisor": "Yazeed" },
-
-
+        { "id": 1, "project_Name": "GPMS", "SuperVisor": "Yazeed" },
     ])
 
     const TableList = Table_Value.map(Value => {
         return (
-            <tr key={Value.id}  onClick={() => setModalShow(true)}>
+            <tr key={Value.id} onClick={() => setModalShow(true)}>
                 <td>{Value.project_Name}</td>
                 <td>{Value.SuperVisor}</td>
-              <td>  <Button variant="success"><i class="fas fa-check"></i></Button>   <Button variant="danger"> <i class="fas fa-times"></i> </Button></td>
+                <td>  <Button variant="success"><i class="fas fa-check"></i></Button> <Button variant="danger"> <i class="fas fa-times"></i> </Button></td>
 
 
             </tr>
@@ -46,14 +44,13 @@ function Table_Some() {
                                 </thead>
                                 <tbody>
                                     {TableList}
-                                    <Modal_info  show={modalShow} onHide={() => setModalShow(false)}/>
+                                    <ModalInfo show={modalShow} onHide={() => setModalShow(false)} />
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

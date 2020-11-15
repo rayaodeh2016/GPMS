@@ -1,6 +1,6 @@
-import React, { Component, useState } from 'react';
+import React, {  useState } from 'react';
 import { Button } from "mdbreact";
-import View_Team from './View_Team';
+import ViewTeam from './View_Team';
 import RequestEx from './Requested_Exmaintion/index';
 
 
@@ -50,7 +50,7 @@ function  Accepted_Eximination() {
                 <h2 style={H2S}>Accepted Eximination</h2>
                 <Button onClick={() =>setModalShow_v(true)}  style={Bu_s}> Requested Examination <i class="fas fa-plus"></i></Button>
                 <RequestEx show={view} onHide={() => setModalShow_v(false)}/>
-                <View_Team show={modalShow} onHide={() => setModalShow(false)} />
+                <ViewTeam show={modalShow} onHide={() => setModalShow(false)} />
              
                 <div className="row">
                     {TeamsList}

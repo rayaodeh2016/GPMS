@@ -1,12 +1,12 @@
 
 .form-control:focus {
     box-shadow: none;
-    border-color: rgb(7, 212, 212);
+    border-color: #08D0D0;
     
 }
 
 .profile-button {
-    background: rgb(7, 212, 212);
+    background: #08D0D0;
     box-shadow: none;
     border: none
 }

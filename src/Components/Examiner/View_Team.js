@@ -1,18 +1,13 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-import Table_v from './Table';
+import TableV from './Table';
 import Grade from './Grade/Grade';
-import Project_info from './Project_info';
+import ProjectInfo from './Project_info';
 
 function View_Team(props) {
     const [modalShow, setModalShow] = React.useState(false);
-    const [view, setModalShow_v] = React.useState(false);
-
-  
     const Button_see = { right: "50%", float: "right" }
-    
-
 
     return (
         <Modal
@@ -29,9 +24,9 @@ function View_Team(props) {
             </Modal.Header>
             <Modal.Body style={{ backgroundColor: "#fff", height: " 80vh" }}>
             <Button style={Button_see} onClick={() => setModalShow(true)}> Grade </Button>
-            <Project_info/>
+            <ProjectInfo/>
         
-<Table_v/>
+<TableV/>
 <Grade show={modalShow} onHide={() => setModalShow(false)}/>
 
                

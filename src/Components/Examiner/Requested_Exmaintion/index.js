@@ -1,6 +1,6 @@
 import React from 'react';
-import { Modal, Button } from 'react-bootstrap';
- import Table_E from './Requested_Exmaintion';
+import { Modal} from 'react-bootstrap';
+ import TableExaminer from './Requested_Exmaintion';
 
 
 
@@ -19,7 +19,7 @@ function View_Team(props) {
             </Modal.Header>
             <Modal.Body style={{ backgroundColor: "#fff", height: " 80vh" }}>
 
-                <Table_E />
+                <TableExaminer />
 
 
 

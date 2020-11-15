@@ -8,22 +8,10 @@ import 'material-icons';
 class chat extends Component {
 
     render() {
-            const Div_Style = {
+        const Div_Style = {
             paddingTop: "25%", paddingRight: "50px"
         }
-        const H1_Style = {
-            fontFamily: 'Vidaloka',
-            textTransform: "uppercase",
-            top: "350px",
-            textAlign: " center",
-            float: " right",
-            right: "70px",
-            fontSize: "3rem",
-            color: "#eee",
-            backgroundColor: "rgb(7, 212, 212)",
-            width: "220px",
-            borderRadius: "40px"
-        }
+
 
         return (
             <div style={Div_Style}>
