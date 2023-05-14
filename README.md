@@ -1,69 +1,47 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # GPMS
+[GPMS_Theises.pdf](https://github.com/rayaodeh2016/GPMS/files/11472823/GPMS_Theises.pdf)
+
+#ScreenShots 
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/031f086c-fdc8-44f4-a54c-d27af90509ce)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/72df917f-a98f-47f0-8b9f-b30a79a4744a)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/93a26bc9-0f6a-40b1-8d17-f6216aa4f28b)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/e18fc3b4-b2d2-4ac3-88e6-e832db470917)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/689040ab-a964-4af5-8e9c-f66883d36ccb)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/5c4a7948-6d1f-4a74-9ec0-cf60709a4684)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/0f244949-01e9-48a9-a2fc-af57de4997ce)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/8ea3e313-a48b-45d5-af27-9412c73c78d6)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/fbc22f6e-3077-477f-bdf7-dcb36462f8de)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/9b3f7a5d-e9cf-439d-b07e-19fbc63cdd23)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/b4740c63-8312-452d-9852-39ef4d3fa605)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/77156907-0bde-4fa6-8dcd-cb83c945270c)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/50aedd5a-21fc-4aae-9614-02ece122773e)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/460ba8a0-3f3c-462e-922e-d17f12d9b1ad)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/57fd1e1f-966a-4575-a40f-0432fe09b508)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/e7bdbd35-8fd3-44be-9e59-42589b8cc28e)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/885fb9a2-c73a-45f6-8b11-9f461a99f385)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/04dd0500-a645-4a8f-9504-489439ddc040)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/ee7aa892-961c-4d52-8cb8-4a5b7d9a4179)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/7929d7d4-1d8f-48d9-829a-44cd72a4e7f0)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/1f99c369-cf86-4daf-9014-ced067169097)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/7ccbc0d7-3a32-4e7b-ac68-e4bba79e3fcb)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/ccb63c3c-bf8c-4cab-84c0-64f46fa39f80)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/23f50a77-ccba-4db0-a40b-3b9176c89f20)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/230cc51d-e7e4-4898-aeae-5ba7bba9e4c8)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/684e70b4-ebe6-45dc-898f-db89bb7a7f0c)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/c74fae41-e845-4004-b2ff-c4c98c1cf0d4)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/aee0f853-2263-4788-9eee-3124b61488a7)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/c50ec118-ca38-4754-aedc-fbcafef87e92)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/cd7b8f32-57a5-4317-a96b-009c50400f94)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/1fe23b44-8cf5-465f-9de2-dc41daa1f3aa)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/74818545-0567-4f4f-9cf2-e197d3de0943)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/f31d57b6-89d3-4298-bf56-af14cc735ad6)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/06110421-bb64-4a4f-a6bc-58524b8399e7)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/bf406446-1e35-414d-8955-79f6bf77b9b9)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/b640d4de-285c-436c-be21-845843998687)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/1999a9b4-2d6e-491b-90ae-60a19b74f479)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/e9e2a54e-a104-4553-80af-4d706ce2ce6e)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/45becdcc-fb1f-4c71-bddf-0da890b1df5d)
+![image](https://github.com/rayaodeh2016/GPMS/assets/73646268/0391195c-9926-4437-af8f-e39409bfb326)
+
